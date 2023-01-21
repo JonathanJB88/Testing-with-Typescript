@@ -1,0 +1,36 @@
+{
+  "name": "ts-test-course",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "itest": "jest --config jest.config.itest.js",
+    "start": "ts-node src/app/Launcher.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/barosanuemailtest/TSTestCourse.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/barosanuemailtest/TSTestCourse/issues"
+  },
+  "homepage": "https://github.com/barosanuemailtest/TSTestCourse#readme",
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/jest": "^26.0.8",
+    "@types/nedb": "^1.8.12",
+    "@types/node": "^14.0.27",
+    "axios": "^0.21.1",
+    "jest": "^26.6.3",
+    "ts-jest": "^26.1.4",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.7"
+  },
+  "dependencies": {
+    "nedb": "^1.8.0"
+  }
+}
